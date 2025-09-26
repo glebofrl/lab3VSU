@@ -25,6 +25,7 @@ https://github.com/glebofrl/lab2VSU/blob/master/scheme.png
 
 ## 2. Реализация программы
 
+```
 #define _CRT_SECURE_NO_DEPRECATE
 #define bar 0.00133322 
 #define Pa 133.32
@@ -48,7 +49,11 @@ void main()
 
 	system("pause");
 }
+```
 
 ## 3. Результаты работы программы
 <img width="553" height="182" alt="image" src="https://github.com/user-attachments/assets/f5098f10-fa80-47d1-8d42-eac27ee9d318" />
 
+## 4. Информация о разработчике
+
+Глебов Илья, бИПТ-252
