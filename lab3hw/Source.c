@@ -9,16 +9,15 @@ void main()
 	setlocale(LC_CTYPE, "RUS");
 
 	int mm;
-	float result;
+	float resultBar, resultPa;
 	puts("¬ведите мм рт. ст:");
 
 	scanf("%d", &mm);
 
-	result = bar * mm;
-	printf("%d мм рт. ст Ц это %.2f бар\n", mm, result);
-
-	result = Pa * mm;
-	printf("%d мм рт. ст Ц это %.2f паскалей\n", mm, result);
+	resultBar = bar * mm;
+	resultPa = Pa * mm;
+	printf("%d мм рт. ст Ц это %.3f бар\n", mm, resultBar);
+	printf("%d мм рт. ст Ц это %.2f паскалей\n", mm, resultPa);
 
 	system("pause");
 }
